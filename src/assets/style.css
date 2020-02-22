@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:400,700&display=swap');
+
+body {
+    font-family: 'Roboto Mono', sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: #000;
+    color: #fff;
+}
+
+#bg-color {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#header {
+    position: relative;
+    width: 480px;
+    max-width: 100%;
+    text-align: center;
+    margin: 60px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    border: 2px solid #f0f0f0;
+}
+
+#legend {
+    background-color: #f0f0f0;
+    display: inline-block;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #000;
+    margin-bottom: 20px;
+}
+
+#input-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+#input-list .input-control {
+    display: inline-block;
+    text-align: center;
+    margin: 0 4px;
+}
+#input-list input {
+    text-align: center;
+    display: block;
+    border: 2px solid #dddddd;
+    background-color: #f0f0f0;
+    height: 40px;
+    width: 100%;
+    line-height: 40px;
+    font-size: 21px;
+    color: #000;
+    text-transform: uppercase;
+}
+#input-list label {
+    display: block;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #333;
+    margin-bottom: 6px;
+}
